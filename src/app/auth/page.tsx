@@ -14,7 +14,7 @@ function AuthenticationPage() {
                 alt="Image"
                 width={241}
                 height={241}
-                className="absolute size-8 dark:brightness-[0.2] dark:grayscale"
+                className="absolute size-8"
               />
             </div>
             Atlas AI Studio.
@@ -32,7 +32,7 @@ function AuthenticationPage() {
           alt="Image"
           width={1280}
           height={720}
-          className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
+          className="absolute inset-0 h-full w-full object-cover"
         />
       </div>
     </div>
