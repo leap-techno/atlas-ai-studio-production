@@ -2,20 +2,19 @@
 
 import React from "react";
 import { Button } from "./ui/button";
-import { Crown } from "lucide-react";
+import { SquarePen } from "lucide-react";
 
 function UpgradeButton() {
   return (
     <Button
-      variant={"outline"}
+      variant={"ghost"}
       className="rounded-full flex items-center justify-center"
     >
-      <Crown
+      <SquarePen
         className="mr-0.5"
         size={16}
-        color="#c32232"
       />
-      Upgrade
+      New Chat
     </Button>
   );
 }
